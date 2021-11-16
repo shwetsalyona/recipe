@@ -22,7 +22,9 @@ header {
 }
 nav {
     background-color: rgba(0, 0, 0, 0.16);
-    height: 40px;
+    text-align: center;
+    padding-bottom: 22px;
+    padding-top: 22px;
 }
 main {
     height: 400px;
@@ -32,21 +34,38 @@ main {
     padding-right: 240px;
 }
 footer {
-    background-color: greenyellow;
-    height: 100px;
+    background-color: rgba(12, 12, 12, 0.6);
+    text-align: center;
+
 }
 h1 {
     color: white;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", serif;
     font-size: 84px;
 }
 p {
     color: white;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", serif;
     font-size: 18px;
 }
 a {
     color: white;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", serif;
 
+}
+nav a {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+}
+footer p {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.maps {
+    padding-bottom: 70px;
 }
